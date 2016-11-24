@@ -4,8 +4,9 @@
     <artifactId>java-a-to-z</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
-    
+
     <modules>
       <module>chapter_001</module>
     </modules>
+
 </project>
