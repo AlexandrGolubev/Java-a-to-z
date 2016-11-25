@@ -5,7 +5,7 @@ package ru.alexandr;
  *
  * @autor Alexandr Golubev (deed27@narod.ru)
  * @version $Id$
- * @since 0.1
+ * @since 24.11.2016
  */
 
 public class Calculate {
