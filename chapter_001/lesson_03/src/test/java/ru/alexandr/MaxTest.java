@@ -4,13 +4,13 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 	/**...
-	* Calculate Test.
+	* Max Test.
 	* @author Alexander Golubev.
-	* since 30.11.2016.
+	* since 07.12.2016.
 	*/
 public class MaxTest {
 	/**.
-	* Test add.
+	* Test max.
 	*/
 	@Test
     public void whenSecondThenMax() {
