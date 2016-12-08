@@ -39,7 +39,7 @@ public class Triangle {
 		double ac = this.a.distanceTo(this.c);
 		double bc = this.b.distanceTo(this.c);
 		if ((bc < (ab + ac)) && (ac < (ab + bc)) && (ab < (bc + ac))) {
-			double p = (a + b + c) / 2;
+			double p = (ab + ac + bc) / 2;
 			result = Math.sqrt(p * (p - ab) * (p - ac) * (p - bc));
 		} else {
 			result = 0;
