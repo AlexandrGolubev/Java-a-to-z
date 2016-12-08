@@ -12,17 +12,11 @@ public class Max {
 	private int max;
 	/**
 	* Метод вычисляет максимум.
-	* @param first - min namber.
-	* @param second - max namber.
+	* @param first - первая переменная.
+	* @param second - вторая переменная.
+	* @return return - возвращает значение.
 	*/
-	public void max(int first, int second) {
-		this.max = first < second ? min : max;
-	}
-	/**
-	* Метод возвращает результат.
-	* @return возвращает результат.
-	*/
-	public int getMax() {
-		return this.result;
+	public int max(int first, int second) {
+		return first > second ? first : second;
 	}
 }
