@@ -17,8 +17,7 @@ public class MaxTest {
 		Max max = new Max();
 		final int first = 1;
 		final int second = 2;
-		final int max = 2;
 		max.max(first, second);
-		assertThat(result, is(2));
+		assertThat(2, is(second));
     }
 }
