@@ -13,7 +13,7 @@ import static org.junit.Assert.assertThat;
 	* Triangle test.
 	*/
 	@Test
-    public void whenAreaThenRithArea() {
+    public void trianglTest() {
 		final int x1 = 1;
 		final int y1 = 2;
 		final int x2 = 2;
