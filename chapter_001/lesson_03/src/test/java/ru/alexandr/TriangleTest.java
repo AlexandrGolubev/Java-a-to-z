@@ -14,14 +14,14 @@ import static org.junit.Assert.assertThat;
 	*/
 	@Test
     public void trianglTest() {
-		final int x1 = 1;
-		final int y1 = 2;
-		final int x2 = 2;
-		final int y2 = 2;
-		final int x3 = 2;
-		final int y3 = 1;
-		final double result = 0.49;
+		final double x1 = 1;
+		final double y1 = 2;
+		final double x2 = 2;
+		final double y2 = 2;
+		final double x3 = 2;
+		final double y3 = 1;
+		final double result = 0.49999999999999983;
 		Triangle triangle = new Triangle(new Point(x1, y1), new Point(x2, y2), new Point(x3, y3));
-		assertThat(result, is(result));
+		assertThat(triangle.area(), is(result));
     }
 }
