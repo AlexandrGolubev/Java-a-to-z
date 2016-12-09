@@ -20,4 +20,17 @@ public class MaxTest {
 		max.max(first, second);
 		assertThat(2, is(second));
     }
+	/**.
+	* Test MaxThree.
+	*/
+	@Test
+    public void whenFirstThenMax() {
+		Max max = new Max();
+		final int first = 3;
+		final int second = 2;
+		final int thrid = 2;
+		final int result = 3;
+		max.maxThree(first, second, thrid);
+		assertThat(first, is(first));
+    }
 }
