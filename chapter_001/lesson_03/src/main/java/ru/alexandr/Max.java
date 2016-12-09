@@ -23,7 +23,6 @@ public class Max {
 	* @return возвращает результат.
 	*/
 	public int maxThree(int first, int second, int thrid) {
-		int result;
 		if ((first <= second) && (first < thrid) && (second < thrid) && (second <= first)) {
 			return thrid;
 		} else if ((thrid <= first) && (thrid < second) && (first < second) && (first <= thrid)) {
