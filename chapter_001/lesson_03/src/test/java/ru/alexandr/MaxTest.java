@@ -28,8 +28,8 @@ public class MaxTest {
 		Max max = new Max();
 		final int first = 3;
 		final int second = 2;
-		final int thrid = 2;
-		max.maxThree(first, second, thrid);
+		final int thrid = 1;
+		max.max(first, second, thrid);
 		assertThat(first, is(first));
     }
 }
