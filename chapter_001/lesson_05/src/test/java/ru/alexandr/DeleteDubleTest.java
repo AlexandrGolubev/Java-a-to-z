@@ -15,7 +15,7 @@ public class DeleteDubleTest {
 	@Test
 	public void whenDubleThenDelete() {
 		DeleteDuble duble = new DeleteDuble();
-		final String[] words = {"Hi", "Petr", "Hi", "Petr"};
+		final String[] words = {"Hi", "Hi", "Petr", "Petr"};
 		final String[] expect = {"Hi", "Petr"};
 		assertThat(duble.delete(words), is(expect));
 	}
