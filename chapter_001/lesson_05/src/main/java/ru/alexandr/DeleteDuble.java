@@ -13,9 +13,25 @@ public class DeleteDuble {
 	* @return result - возвращает результат.
 	*/
 	public String[] delete(String[] words) {
+		String temp;
+		for (int i = 0; i < words.length; i++) {
+			for (int j = i + 1; j < words.length; j++) {
+				if (words[i] != null && words[i].equals(words[j])) {
+					words[j] = null;
+				}
+			}
+		}
+		for (int i = 0; i < words.length - 1; i++) {
+			for (int j = 0; j < words.length - 1 - i; j++) {
+				if (words[j] == null && words[j + 1] != null) {
+					words[j] = words[j + 1];
+					words[j + 1] = null;
+				}
+			}
+		}
 		String[] word = Arrays.copyOf(words, 2);
 		for (int i = 0; i < word.length; i++) {
-			String temp = word[i];
+			temp = word[i];
 		}
 		return word;
 	}
