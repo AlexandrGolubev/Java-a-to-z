@@ -14,10 +14,12 @@ public class DeleteDuble {
 	*/
 	public String[] delete(String[] words) {
 		String temp;
+		int counter = 0;
 		for (int i = 0; i < words.length; i++) {
 			for (int j = i + 1; j < words.length; j++) {
 				if (words[i] != null && words[i].equals(words[j])) {
 					words[j] = null;
+					counter++;
 				}
 			}
 		}
@@ -29,7 +31,7 @@ public class DeleteDuble {
 				}
 			}
 		}
-		String[] word = Arrays.copyOf(words, 2);
+		String[] word = Arrays.copyOf(words, words.length - counter);
 		for (int i = 0; i < word.length; i++) {
 			temp = word[i];
 		}
