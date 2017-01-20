@@ -1,5 +1,6 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
+	<groupId>ru.alexandr</groupId>
     <artifactId>chapter_001</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
@@ -93,11 +94,4 @@
 			</plugin>
 		</plugins>
     </build>
-
-    <packaging>jar</packaging>
-    <parent>
-        <groupId>ru.alexandr</groupId>
-        <artifactId>java-a-to-z</artifactId>
-        <version>1.0</version>
-    </parent>
 </project>
